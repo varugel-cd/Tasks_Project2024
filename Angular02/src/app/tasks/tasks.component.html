@@ -1,14 +1,27 @@
 
 
-@if (isAddingTask){
-  <app-new-task/>
-}
-
+<section id="addTasks">
+  <header>
+    Enter the following information to add a new task!
+    <br>
+    <menu> 
+      @if (isAddingTask){
+        <app-new-task />
+      }
+    </menu>
+   </header>  
+</section>
 
 
 <section id="tasks">
   <header>
-    <h2>{{ name }}'s Tasks</h2>
+    <h2>{{ name }}'s &nbsp;&nbsp;&nbsp;&nbsp; Tasks</h2>
+    <!-- Need to get the value of name from the DOM within script block -->
+    <!-- <script> 
+        document.write('<h2> {{ name }}  \'s' + Array(10).fill('\xa0').join('') + 'Tasks</h2>');
+        document.write('<h2> {{ name }} \'s' + '\xa0'.repeat(10) +' Tasks</h2>');
+    </script> -->
+
     <menu>
       <button (click)="onStartAddTask()">Add Task</button>
     </menu>
