@@ -1,0 +1,18 @@
+div {
+  border-radius: 50px;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+/* -webkit-box-shadow: 8px 8px 8px 8px rgba(218,232,230,1);
+-moz-box-shadow: 8px 8px 8px 8px rgba(218,232,230,1);
+box-shadow: 8px 8px 6px 8px rgba(218,232,230,1); */
+
+
+-webkit-box-shadow: 8px 8px 8px 8px rgba(242,245,201,1);
+-moz-box-shadow: 8px 8px 8px 8px rgba(242,245,201,1);
+box-shadow: 1px 1px 9px 6px rgba(242,245,201,1);
+}
+
+
+
+
+
