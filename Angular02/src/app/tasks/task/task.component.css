@@ -32,7 +32,7 @@ time {
   -webkit-box-shadow: 8px 8px 8px 8px rgba(242,245,201,1);
   -moz-box-shadow: 8px 8px 8px 8px rgba(242,245,201,1);
   box-shadow: 1px 1px 9px 6px rgba(242,245,201,1);
-}
+} 
 
 .actions button:hover,
 .actions button:active {

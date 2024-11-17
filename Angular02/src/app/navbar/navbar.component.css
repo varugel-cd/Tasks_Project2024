@@ -1,0 +1,28 @@
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    background-color: #b8a3d1;
+    padding: 10px;
+}
+.nav-button{
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 70px;
+    background-color: #593585;
+    color: #d8d0e0;
+    transition: background-color 0.3s;
+    border: none;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+    width:90px;
+}
+
+.nav-button:focus,
+.nav-button :hover{  
+    background-color: #4a0774;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 8px 8px 8px 8px rgba(242,245,201,1);
+    -moz-box-shadow: 8px 8px 8px 8px rgba(242,245,201,1);
+     box-shadow: 1px 1px 9px 6px rgba(242,245,201,1);
+}
